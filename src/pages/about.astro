@@ -1,0 +1,62 @@
+---
+import MainHead from '../components/MainHead.astro';
+import Footer from '../components/Footer/index.jsx';
+import Nav from '../components/Nav/index.jsx';
+---
+
+<html lang="en">
+	<head>
+		<MainHead title="About Me" description="A brief description about myself" />
+		<style lang="scss">
+			.heroImg {
+				max-height: 24rem;
+				object-fit: cover;
+				overflow: hidden;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			.bio {
+				font-size: var(--f-u1);
+				line-height: 2;
+			}
+		</style>
+	</head>
+	<body>
+		<Nav />
+		<div class="wrapper">
+			<h1>About Me!</h1>
+			<div class="heroImg">
+				<img width="1400" height="350" src="../assets/about.jpg" />
+			</div>
+			<div class="bio wrapper wrapper__readable mt8">
+				<p>
+					Hi! I'm Sakil! 2nd year undergraduate student of University of Calgary. Currently, I'm pursuing my undergraduate degree in Software Engineering.
+				</p><br>
+				<p>
+					I love coding and working with UI/UX designs. I have over 3+ years of experiance in Javascipt and Python. I'm also good in technologies like C/C++, Numpy, Matplotlib, NodeJS, and Django.
+				</p><br>
+				<p>
+					<b>Here are the full list of frameworks I'm familiar with: </b>
+				<ol>
+					<li>Python - Django, Numpy, Matplotlib</li>
+					<li>Javascipt - NodeJS, reactJS, AstroJS, TailwindCSS, SCSS, MongoDB, CheeriosJS and Axios.</li>
+					<li>C/C++</li>
+				</ol>
+				<b>And here are the technologies I'm currently learning/willing to learn in future: </b>
+				<ol>
+					<li>Ruby on rails</li>
+					<li>Shopify theme development</li>
+					<li>Tensorflow</li>
+				</ol>
+				</p><br>
+				<p>
+					Apart from my study, I always love to watch basketball, play video games, listening to music and mostly binge-watching kdramas. Thanks for stopping by and have a great day. I'll update my education page later but I'm too lazy to do so...
+				</p>
+			</div>
+		</div>
+		<Footer />
+	</body>
+</html>
