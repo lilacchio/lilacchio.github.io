@@ -11,5 +11,5 @@ export default defineConfig({
 });
 
 {
-  site: 'https://darkrider1999.github.io'
+  site: 'https://lilacchio.github.io'
 }
