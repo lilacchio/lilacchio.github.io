@@ -33,8 +33,9 @@ const Navbar = () => (
       </a>
 
       <NavMenu>
-        <NavMenuItem href="/posts">Blogs</NavMenuItem>
+        <NavMenuItem href="/posts">Projects</NavMenuItem>
         <NavMenuItem href="https://github.com/lilacchio">GitHub</NavMenuItem>
+        <NavMenuItem href="https://lilacchio.medium.com">Blog</NavMenuItem>
         <NavMenuItem href="https://www.linkedin.com/in/sakmahmud/">
           Linkedin
         </NavMenuItem>

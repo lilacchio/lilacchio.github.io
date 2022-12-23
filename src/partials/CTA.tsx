@@ -12,8 +12,7 @@ const CTA = () => (
           Subscribe to my <GradientText>Newsletters</GradientText>
         </>
       }
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero
-          esse non molestias eos excepturi, inventore atque cupiditate."
+      description="Interested in knowing about my goals and perspective? Subscribve now! One personized email per month."
     />
   </Section>
 );
