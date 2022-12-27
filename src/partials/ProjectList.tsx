@@ -18,7 +18,7 @@ const ProjectList = () => (
       <Project
         name="Project 1 : Museum Database Management System"
         description="A Fully Functional Database Management System with Python and MySQL, which allows user to access with different roles and find the relevant museum data. It was our final project in ENSF300 course."
-        link="/"
+        link="https://github.com/lilacchio/museum-project"
         img={{
           src: '/assets/images/museum.png',
           alt: 'Project Web Design',
